@@ -58,3 +58,10 @@ release/
 # IDE/editor-specific files for Rust
 .rustup/
 .cargo/
+
+
+# Secret files (ensure they are not tracked)
+*.pem
+*.key
+*.crt
+*.env
